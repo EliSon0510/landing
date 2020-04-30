@@ -1,0 +1,14 @@
+
+.btn-round{
+  display: inline-block;
+  background-color: transparent;
+  border: white 2px solid;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+}
+
+.btn-round:hover{
+  background-color: darkolivegreen;
+
+}

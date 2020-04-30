@@ -1,0 +1,103 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* components */
+@import url('components/btn.css');
+@import url('components/card.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+h1{
+  display: block;
+  font-size: 2em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+h2{
+  display: block;
+  font-size: 1.5em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color: darkolivegreen;
+}
+h3{
+  margin: 10px;
+  font-weight: light;
+}
+p{
+  display: block;
+  margin: 5px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.div{
+  display: block;
+}
+
+.container{
+    margin: 0;
+    font-family: Open Sans;
+}
+
+.banner{
+    background-image: url(../images/Header-sheep.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 330px 10px 70px 0;
+}
+.banner-text{
+  padding-left: 15px;
+}
+.banner h1{
+  color: white;
+}
+.banner p{
+  color: white;
+  opacity: .9;
+  font-size: 20px;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.footer{
+  background-image: url(../images/Footer.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 0 100px 0;
+  text-align: center;
+}
+.footer-infos p{
+  color: white;
+  font-weight: light;
+  font-size: 20px;
+
+}
+.footer-infos img{
+  border-radius: 100%;
+  width: 80px;
+}
